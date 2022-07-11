@@ -196,13 +196,14 @@ nav .active{
     font-weight: 800;
 }
 .cont{
-    margin: 10px 60px;
+    margin: 10px 40px;
     display: block;
 }
 .float-img{
     margin: 10px 40px;
 }
 .text-content{
+    margin: 0px;
     float: right;
 }
 .container-two{
@@ -254,6 +255,7 @@ nav .active{
     justify-content: space-between;
 }
 .content-text{
+    float: left;
     margin: 5px 0px;
     animation: slideUp 2s linear .1s;
 }
@@ -322,9 +324,10 @@ footer{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .card{
+    margin: 0px;
     padding: 20px 0px;
     width: 300px;
     height: 250px;
@@ -626,7 +629,7 @@ footer{
     .card{
         margin: 15px 0px;
         padding: 20px 0px;
-        width: 300px;
+        width: 280px;
         height: 240px;
         background-color: rgb(127, 46, 151);
         border-radius: 10px;
